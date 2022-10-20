@@ -20,6 +20,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/css.css" rel="stylesheet">
 
 </head>
 
@@ -39,8 +40,8 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#work">Work</a></li>
-          <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <!-- <li><a class="nav-link scrollto " href="#blog">Blog</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -56,7 +57,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -73,6 +74,10 @@
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h1 class="hero-title mb-4">I'm <span style="color: var(--bs-yellow);">Jayson</span> Caño Bualoy</h1>
+          <script type="text/javascript">
+            const snd = new Audio("file.wav");
+            snd.play();
+          </script>
           <p class="hero-subtitle"><span class="typed" data-typed-items="Web Developer, Mobile Developer, Graphic Designer, Freelancer"></span></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
@@ -240,16 +245,17 @@
                       </h5>
                     </div>
                     <p class="lead">
+                      I'm a mobile and web developer with a skill for problem-solving and improving screen scale compatibility that can help your business grow sales and investment. I've been working as a mobile and web developer for the last 6 months, and I specialize in assisting local clients who are growing their small businesses in "fiverr and upwork". My strength is my ability to understand my senior/client's needs on a deep level, and I can work in under pressure without compromising on the quality of my work to take great satisfaction in my track record of developing projects and solutions that are compelling and that my clients genuinely love. I want to work for a firm where I can contribute value and generate a profit, and I want to be a part of a successful team. Is this what "company" is seeking for?
+                    </p>
+                    <p class="lead">
+                      <b></b>
                       I currently work as a freelancer for a college or university where I received my degree. I update and maintain the accounting management system that we created for the aforementioned institution as part of our thesis.
                       I love programming computers with a passion. I enjoy doing research and learning new things, especially about emerging trends.
                       PHP, JavaScript, C# (WinForms,.net framework), Java (java 8), HTML5/CSS3, MySQL, Firebase, and cPanel make up my current tech stack.
                       And i use Adobe Photoshop, Adobe Premiere Pro, Adobe XD, Figma, and Canva for graphic design and video editing.
                     </p>
                     <p class="lead">
-                      I recently graduated from Dr. Ruby Lanting Casaul Educational Foundation, Inc., and I completed an internship or on-the-job training there. My responsibility is to implement, support, and update our suggested thesis account management system. Fortunately, the aforementioned Institution is making advantage of the technology.
-                    </p>
-                    <p class="lead">
-                      Because I recently graduated, I don't have the money to rent the database and hosting needed for my project, therefore I first need to locate an angel investor. My mobile application, Spotd, allows users to share thoughts, images of their daily outfits, interesting videos, and other content.
+                      I recently graduated from Dr. Ruby Lanting Casaul Educational Foundation, Inc., and I completed an internship or on-the-job training there. My responsibility is to implement, support, and update our suggested thesis entitled Account Management System using QR Code. Fortunately, the aforementioned Institution is making advantage of the technology.
                     </p>
                   </div>
                 </div>
@@ -372,7 +378,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Counter Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+    <!-- <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
       <div class="overlay-mf"></div>
       <div class="container position-relative">
         <div class="row">
@@ -422,8 +428,16 @@
           </div>
         </div>
       </div>
-    </div><!-- End Counter Section -->
-
+    </div> --><!-- End Counter Section -->
+<!-- <style type="text/css">
+  #ribbon {
+position: fixed;
+top: 0;
+right: 0;
+z-index: 1000;
+/*cursor: pointer;*/
+}
+</style> -->
     <!-- ======= Portfolio Section ======= -->
     <section id="work" class="portfolio-mf sect-pt4 route">
       <div class="container">
@@ -440,20 +454,100 @@
             </div>
           </div>
         </div>
+<!-- <style type="text/css">
+.ribbon{
+  font-size:20px;
+  position:relative;
+  display:inline-block;
+  margin:5em;
+  text-align:center;
+}
+.text{
+  display:inline-block;
+  padding:0.5em 1em;
+  min-width:20em;
+  line-height:1.2em;
+  background: #FFD72A;
+  position:relative;
+}
+.ribbon:after,.ribbon:before,
+.text:before,.text:after,
+.bold:before{
+  content:'';
+  position:absolute;
+  border-style:solid;
+}
+.ribbon:before{
+  top:0.3em; left:0.2em;
+  width:100%; height:100%;
+  border:none;
+  background:#EBECED;
+  z-index:-2;
+}
+.text:before{
+  bottom:100%; left:0;
+  border-width: .5em .7em 0 0;
+  border-color: transparent #FC9544 transparent transparent;
+}
+.text:after{
+  top:100%; right:0;
+  border-width: .5em 2em 0 0;
+  border-color: #FC9544 transparent transparent transparent;
+}
+.ribbon:after, .bold:before{
+  top:0.5em;right:-2em;
+  border-width: 1.1em 1em 1.1em 3em;
+  border-color: #FECC30 transparent #FECC30 #FECC30;
+  z-index:-1;
+}
+.bold:before{
+  border-color: #EBECED transparent #EBECED #EBECED;
+  top:0.7em;
+  right:-2.3em;
+}
+
+</style> -->
+
         <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+          <div class="col-md-4 mt-5">
+
+            <div class="card">
+
+              <!-- <a href="assets/img/work-1.jpg" style="border-radius: 15px 15px 0 0;" data-gallery="portfolioGallery" class="portfolio-lightbox"> -->
+
+                <div class="work-img" style="border-radius: 15px 15px 0 0;">
+                  <!-- <img  src="assets/img/work-1.jpg" style="border-radius: 15px 15px 0 0;" alt="" class="img-fluid" > -->
+                  <div class="portfolio-details-slider swiper " >
+                    <div class="swiper-wrapper align-items-center" >
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-1.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-2.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-3.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination" style="display: none;"></div>
+                  </div>
                 </div>
-              </a>
+                <!-- <span class="card__ribbon" style="position:absolute; position:relative; z-index: 1;"></span> -->
+
+              <!-- </a> -->
+            
+
+              <!-- <img alt="Alternative Text" class="w3-xlarge w3-display-bottomleft w3-padding" src="assets/img/apple-touch-icon.png" width="50" height="50"> -->
+                <!-- <span class="card__ribbon" style="position:absolute; position:relative; z-index: 1;"></span> -->
+
               <div class="work-content">
+                <span class="card__ribbon" ></span>
+
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Lorem impsum dolor</h2>
+                    <h3 class="w-title">Portfolio <span class="label info text-white pt-1 pb-1 pl-2 pr-2 fs-6 rounded-lg">Premium</span></h3>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory">Web Development</span> / <span class="w-date">On going ...</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -461,18 +555,41 @@
                       <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
                   </div>
+
                 </div>
+
               </div>
+                <!-- <span class="card__ribbon" style="position:absolute; position:relative; z-index: 1;"></span> -->
+
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+
+
+          <div class="col-md-4 mt-5">
+            <div class="card">
+
+              <!-- <a href="assets/img/work-2.jpg" style="border-radius: 15px 15px 0 0;" data-gallery="portfolioGallery" class="portfolio-lightbox"> -->
+                <div class="work-img" style="border-radius: 15px 15px 0 0;">
+                  <div class="portfolio-details-slider swiper " >
+                    <div class="swiper-wrapper align-items-center" >
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-1.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-2.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-3.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination" style="display: none;"></div>
+                  </div>
+                  <!-- <img src="assets/img/work-2.jpg" style="border-radius: 15px 15px 0 0;"   alt="" class="img-fluid"> -->
                 </div>
-              </a>
+              <!-- </a> -->
               <div class="work-content">
+                <span class="card__ribbon" ></span>
+                
                 <div class="row">
                   <div class="col-sm-8">
                     <h2 class="w-title">Loreda Cuno Nere</h2>
@@ -489,14 +606,29 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <!-- <a href="assets/img/work-2.jpg" style="border-radius: 15px 15px 0 0;" data-gallery="portfolioGallery" class="portfolio-lightbox"> -->
+                <div class="work-img" style="border-radius: 15px 15px 0 0;">
+                  <div class="portfolio-details-slider swiper " >
+                    <div class="swiper-wrapper align-items-center" >
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-1.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-2.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-3.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination" style="display: none;"></div>
+                  </div>
+                  <!-- <img src="assets/img/work-2.jpg" style="border-radius: 15px 15px 0 0;"   alt="" class="img-fluid"> -->
                 </div>
-              </a>
+              <!-- </a> -->
               <div class="work-content">
+                <span class="card__ribbon"></span>
                 <div class="row">
                   <div class="col-sm-8">
                     <h2 class="w-title">Mavrito Lana Dere</h2>
@@ -513,14 +645,30 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
+
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <!-- <a href="assets/img/work-2.jpg" style="border-radius: 15px 15px 0 0;" data-gallery="portfolioGallery" class="portfolio-lightbox"> -->
+                <div class="work-img" style="border-radius: 15px 15px 0 0;">
+                  <div class="portfolio-details-slider swiper " >
+                    <div class="swiper-wrapper align-items-center" >
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-1.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-2.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-3.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination" style="display: none;"></div>
+                  </div>
+                  <!-- <img src="assets/img/work-2.jpg" style="border-radius: 15px 15px 0 0;"   alt="" class="img-fluid"> -->
                 </div>
-              </a>
+              <!-- </a> -->
               <div class="work-content">
+                <span class="card__ribbon2"></span>
                 <div class="row">
                   <div class="col-sm-8">
                     <h2 class="w-title">Bindo Laro Cado</h2>
@@ -537,14 +685,30 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
+
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <!-- <a href="assets/img/work-2.jpg" style="border-radius: 15px 15px 0 0;" data-gallery="portfolioGallery" class="portfolio-lightbox"> -->
+                <div class="work-img" style="border-radius: 15px 15px 0 0;">
+                  <div class="portfolio-details-slider swiper " >
+                    <div class="swiper-wrapper align-items-center" >
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-1.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-2.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-3.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination" style="display: none;"></div>
+                  </div>
+                  <!-- <img src="assets/img/work-2.jpg" style="border-radius: 15px 15px 0 0;"   alt="" class="img-fluid"> -->
                 </div>
-              </a>
+              <!-- </a> -->
               <div class="work-content">
+                <span class="card__ribbon2"></span>
                 <div class="row">
                   <div class="col-sm-8">
                     <h2 class="w-title">Studio Lena Mado</h2>
@@ -561,14 +725,29 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <!-- <a href="assets/img/work-2.jpg" style="border-radius: 15px 15px 0 0;" data-gallery="portfolioGallery" class="portfolio-lightbox"> -->
+                <div class="work-img" style="border-radius: 15px 15px 0 0;">
+                  <div class="portfolio-details-slider swiper " >
+                    <div class="swiper-wrapper align-items-center" >
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-1.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-2.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/portfolio-details-3.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination" style="display: none;"></div>
+                  </div>
+                  <!-- <img src="assets/img/work-2.jpg" style="border-radius: 15px 15px 0 0;"   alt="" class="img-fluid"> -->
                 </div>
-              </a>
+              <!-- </a> -->
               <div class="work-content">
+                <span class="card__ribbon2"></span>
                 <div class="row">
                   <div class="col-sm-8">
                     <h2 class="w-title">Studio Big Bang</h2>
@@ -590,170 +769,13 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Xavi Alonso</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Marta Socrate</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-
-            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+    
           
         </div> -->
           </div>
         </div>
       </div>
     </div><!-- End Testimonials Section -->
-
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Blog
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Travel</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Web Design</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Web Design</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>End Blog Section
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
@@ -813,15 +835,12 @@
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
+                        
                       </p>
                       <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                        <li><span class="bi bi-phone"></span> (617) 557-0089</li>
-                        <li><span class="bi bi-envelope"></span> contact@example.com</li>
+                        <li><span class="bi bi-geo-alt"></span> Zone 5 Mariroc Tabaco City Albay</li>
+                        <li><span class="bi bi-phone"></span> (+63) 906 353 7046</li>
+                        <li><span class="bi bi-envelope"></span> jaysonbualoy026987@gmail.com</li>
                       </ul>
                     </div>
                     <div class="socials">
@@ -849,7 +868,7 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <p class="copyright">&copy; 2018-2022 All Rights Reserved</p>
             <div class="credits">
               <!--
               All the links in the footer should remain intact.
@@ -857,13 +876,15 @@
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
             -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a class="scrollto" href="#hero"><b style="color: gold;">Jayson</b> Caño Bualoy</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </footer><!-- End  Footer -->
+
+
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
