@@ -88,7 +88,7 @@
   overflow: hidden;
 
    z-index: 1;
-  
+
 }
 
 .card__ribbon2::after{
@@ -166,4 +166,10 @@
   height: 1em;
   background-color: #5a3ecc;
   box-shadow: 11em -11em #5a3ecc;
+}
+
+.cimg{
+  position: relative;
+  max-width: auto;
+  height: 12vw;
 }
