@@ -21,6 +21,7 @@
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/css.css" rel="stylesheet">
+  
 
 </head>
 
@@ -49,7 +50,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/bg.jpg)">
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/msedge_25pUPiIOUN.jpg)">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -74,7 +75,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <div class="box-shadow-full">
+            <div class="box-shadow-full rounded">
               <div class="row">
                 <div class="col-md-6">
                   <div class="row">
@@ -162,7 +163,8 @@
           </div>
         </div>
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services-mf pt-5 route">
@@ -316,7 +318,7 @@
                     <h3 class="w-title">OOP<span class="label info text-white pt-1 pb-1 pl-2 pr-2 fs-6 rounded-lg">Premium</span></h3>
                     <div class="w-more">
                       <span class="w-ctegory">Web Development</span> / <span class="w-date">Ongoing</span><br>
-                      <p class="lead">I use this program to work as a freelancer on Fiverr and Upwork. It is used for Micro Small and Medium Enterprises (MSMEs).</p>
+                      <p class="">I use this program to work as a freelancer on Fiverr and Upwork. It is used for Micro Small and Medium Enterprises (MSMEs).</p>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -335,13 +337,13 @@
                   <div class="portfolio-details-slider swiper " >
                     <div class="swiper-wrapper align-items-center" >
                       <div class="swiper-slide">
-                        <img src="assets/img/portfolio-details-1.jpg" class="img-fluid cimg" alt="">
+                        <img src="assets/img/signin.png" class="img-fluid cimg" alt="">
                       </div>
                       <div class="swiper-slide">
-                        <img src="assets/img/portfolio-details-2.jpg" class="img-fluid cimg" alt="">
+                        <img src="assets/img/signup1.png" class="img-fluid cimg" alt="">
                       </div>
                       <div class="swiper-slide">
-                        <img src="assets/img/portfolio-details-3.jpg" class="img-fluid cimg" alt="">
+                        <img src="assets/img/signup2.png" class="img-fluid cimg" alt="">
                       </div>
                     </div>
                     <div class="swiper-pagination" style="display: none;"></div>
@@ -357,7 +359,7 @@
                     <h2 class="w-title">Spotd</h2>
                     <div class="w-more">
                       <span class="w-ctegory">Mobile Development</span> / <span class="w-date">Ongoing</span><br>
-                      <p class="lead">This is a personal project I created using Java and Kotlin in Android Studio.</p>
+                      <p class="">This is a personal project I created using Java and Kotlin in Android Studio.</p>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -376,14 +378,14 @@
                   <div class="portfolio-details-slider swiper " >
                     <div class="swiper-wrapper align-items-center" >
                       <div class="swiper-slide">
-                        <img src="assets/img/portfolio-details-1.jpg" class="img-fluid cimg" alt="">
+                        <img src="assets/img/msedge_25pUPiIOUN.jpg" class="img-fluid cimg" alt="">
                       </div>
                       <div class="swiper-slide">
-                        <img src="assets/img/portfolio-details-2.jpg" class="img-fluid cimg" alt="">
+                        <img src="assets/img/Artboard 2.png" class="img-fluid cimg" alt="">
                       </div>
-                      <div class="swiper-slide">
+                      <!-- <div class="swiper-slide">
                         <img src="assets/img/portfolio-details-3.jpg" class="img-fluid cimg" alt="">
-                      </div>
+                      </div> -->
                     </div>
                     <div class="swiper-pagination" style="display: none;"></div>
                   </div>
@@ -394,7 +396,8 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">UI Design</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">WireFrame</span> / <span class="w-date">Ongoing</span>
+                      <span class="w-ctegory">WireFrame</span> / <span class="w-date">Ongoing</span><br>
+                      <span class="">Need a clean and modern interface for your business? Contact me with your ideas so I can help you bring them to life! I specialize in creating beautiful interfaces for mobile apps and websites that are functional and easy to use.</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -435,7 +438,7 @@
                     <h2 class="w-title">My current portfolio</h2>
                     <div class="w-more">
                       <span class="w-ctegory">Web Development</span> / <span class="w-date">Ongoing</span><br>
-                      <p class="lead">This is my static portfolio, which is available for download on GitHub and is open source.</p>
+                      <p class="">This is my static portfolio, which is available for download on GitHub and is open source.</p>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -663,7 +666,58 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+<!-- cookie warning toast -->
+<div id="cookiePopup" role="alert" data-autohide="false">
+  <h4 class="color-d ppp">Cookie Consent</h4>
+  <p class="pp">My portfolio don't uses cookies to provide your browsing experience and relavent informations.</p>
+ <button onclick="closeForm()">Accept</button> 
+</div>
+<!-- Before continuing to use my static website, you agree & accept of our  <a href="#">Cookie Policy & Privacy</a> -->
 
+<style>
+  .fixed-bottom{
+    z-index: 10000;
+  }
+  .pp{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .ppp{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  #cookiePopup {
+     background: #181818;
+     border-radius: 10px  ;
+     width: 25%;
+     position: fixed;
+     left: 10px;
+     bottom: 20px;
+     box-shadow: 0px 0px 2px #cccccc;
+     padding: 5px 5px;
+     z-index: 10000;
+   }
+     #cookiePopup p{
+     text-align: left;
+     font-size: 15px;
+     color: #aaaaaa;
+   }
+   #cookiePopup button{
+     width: 100%;
+     border: navajowhite;
+     background: #097fb7;
+     padding: 5px;
+     border-radius: 10px;
+
+     color: white;
+   }
+ </style>
+ <script type="text/javascript">
+      function closeForm() {
+        document.getElementById("cookiePopup").style.display = "none";
+      }
+  </script>
 </body>
 
 </html>
